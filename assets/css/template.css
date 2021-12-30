@@ -37,13 +37,18 @@ nav li  {
 nav ul {
     display: flex;
 }
+a {
+    font-size: 13px;
+    
 
+}
 nav a {
 display: block;
 padding: 15px;
 text-decoration: none;
 text-transform: uppercase;
 color: #727272;
+
 
 }
 
