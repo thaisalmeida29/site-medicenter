@@ -258,17 +258,27 @@ footer {
 }
 .footer_menu {
     display: flex;
+    align-items: center;
+   
     
+
     
 }
 .fm_1, .fm_2, .fm_3 {
     flex: 1;
     color: #FFFFFF;
+    font-size: 21px;
+    padding: 5px;
+
+    width: 370px;
+    height: 90px;
+
     
 }
 
 .fm_1 {
     background-color: #39aae1;
+    
 }
 .fm_2 {
     background-color: #0079c7 ;
@@ -279,8 +289,11 @@ footer {
 .footer_menu a {
     display: block;
     text-decoration: none;
-    padding: 20px;
+    padding: 0px 15px 5px 15px;
     color: #FFFFFF;
+    background-position: right center;
+    padding-right: 17px;
+
 }
 .footer_area {
     display: flex;
@@ -305,3 +318,16 @@ footer .widget_title_text {
     font-size: 12px;
     margin-top: 30px;
 }
+
+
+.desc {
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: inherit;
+}
+.fm_1p, .fm_1h, .fm_1l {
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+    
