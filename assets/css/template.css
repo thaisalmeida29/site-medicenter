@@ -429,6 +429,18 @@ ul {
 
 }
 
+.social_midia ul li {
+    display: inline;
+
+}
+
+li img {
+    height: 20px;
+    flex: 1;
+
+}
+
+
 .footer_areaitem {
     flex: 1;
     color: #FFFFFF;
@@ -450,4 +462,40 @@ footer .widget_title_text {
     color: #5c5c5c;
     font-size: 12px;
     margin-top: 30px;
+}
+
+.icon a {
+    display: inline-block;
+    text-decoration: none;
+    color: #d5d5d5;
+    font-size: 14px;
+    outline: none;
+    clear: both;
+    padding-left: 10px;
+    line-height: 25px;
+    width: 100%;
+}
+
+
+.timeago {
+    text-decoration: none;
+    font-size: 11px;
+    color: #4eb3e5;
+    padding: 10px;
+    line-height: 35px;
+    margin-top: 2px;
+}
+
+.icon1 a {
+    display: inline-block;
+    text-decoration: none;
+    color: #909090;
+    font-size: 13px;
+    padding: auto;
+    outline: none;
+    clear: both;
+    padding-left: 10px;
+    line-height: 150%;
+    flex-wrap: wrap;
+    width: 100%;
 }
