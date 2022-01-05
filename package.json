@@ -1,0 +1,24 @@
+{
+  "name": "medicenter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thaisalmeida29/medicenter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thaisalmeida29/medicenter/issues"
+  },
+  "homepage": "http://thaisalmeida29.github.io/medicenter",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
