@@ -1,5 +1,5 @@
 {
-  "name": "medicenter",
+  "name": "site-medicenter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thaisalmeida29/medicenter.git"
+    "url": "git+https://github.com/thaisalmeida29/site-medicenter.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thaisalmeida29/medicenter/issues"
+    "url": "https://github.com/thaisalmeida29/site-medicenter/issues"
   },
-  "homepage": "http://thaisalmeida29.github.io/medicenter",
+  "homepage": "http://thaisalmeida29.github.io/site-medicenter",
   "devDependencies": {
     "gh-pages": "^3.2.3"
   }
