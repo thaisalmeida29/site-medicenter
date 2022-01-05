@@ -17,8 +17,5 @@
   "bugs": {
     "url": "https://github.com/thaisalmeida29/site-medicenter/issues"
   },
-  "homepage": "http://thaisalmeida29.github.io/site-medicenter",
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
-  }
+  "homepage": "http://thaisalmeida29.github.io/site-medicenter"
 }
