@@ -134,6 +134,7 @@ nav a:hover {
 .banner4 {
     background-color: #2b4c99;
 
+
 }
 
 .banner_title {
@@ -210,8 +211,9 @@ span {
 
 #geral aside {
     flex: 1;
-    padding-bottom: 50px;
+
 }
+
 .widget_title {
     margin-top: 30px;
     margin-bottom: 20px;
@@ -225,7 +227,21 @@ span {
 
 }
 
+.widget_title_text1 {
+    color: #000000;
+    font-size: 21px;
+    font-weight: normal;
+
+}
+
 .widget_title_bar {
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+
+.widget_title_bar1 {
     width: 50px;
     height: 2px;
     background-color: #36a9e1;
@@ -297,8 +313,8 @@ article .news_resume {
     background: #3156A3;
     padding: 10px 10px;
     margin-top: -13px;
-    
-    
+
+
 }
 
 .list1 img {
@@ -306,6 +322,7 @@ article .news_resume {
     float: left;
     margin: 14px;
 }
+
 .list1 p {
     color: #666;
     margin: 28px;
@@ -325,6 +342,7 @@ article .news_resume {
     margin: 2px;
     padding: 8px;
 }
+
 .list_menu1 li {
     color: #666666;
     font-size: 20px;
@@ -341,18 +359,21 @@ article .news_resume {
     opacity: 0.4;
     margin-top: 0%;
     padding-top: 0%;
-    
+
 }
+
 .widget_body_make {
     font-size: 15px;
     color: #909090;
 }
+
 .widget_body_make hr {
     color: #727272;
     opacity: 0.4;
     margin-top: 0%;
     padding-top: 0%;
 }
+
 footer {
     background-color: #1e1e1e;
     display: flex;
@@ -562,4 +583,93 @@ footer .widget_title_text {
     line-height: 150%;
     flex-wrap: wrap;
     width: 100%;
+}
+
+.menu_mobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.mm_line {
+    height: 3px;
+    background-color: #39aae1;
+}
+
+@media (max-width:600px) {
+    .banner_headline h1 {
+        padding: 20px;
+    }
+
+    .banner_headline h1 {
+        font-size: 55px;
+    }
+
+    .banner_headline h2 {
+        padding: 20px;
+        font-size: 17px;
+    }
+
+    .banner_headline {
+        flex-direction: row;
+    }
+
+    .widget_title_text1 {}
+
+    .banner_options {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+
+    }
+
+    #geral section,
+    #geral aside {
+        padding: 20px;
+    }
+
+    .footer_menu {
+        flex-direction: column;
+    }
+
+    .footer_area {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .footer_copy {
+        padding-left: 20px;
+    }
+
+    header .container {
+        flex-direction: row;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+
+    }
+
+    header {
+        height: auto;
+    }
+
+    .logo {
+        padding-left: 20px;
+    }
+
+    .menu_mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+
 }
