@@ -617,7 +617,9 @@ footer .widget_title_text {
         flex-direction: row;
     }
 
-    .widget_title_text1 {}
+    .widget_title_text1 {
+        margin-top: 125px;
+    }
 
     .banner_options {
         height: auto;
@@ -654,6 +656,10 @@ footer .widget_title_text {
     nav ul {
         flex-direction: column;
         display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #FFFFFF;
 
     }
 
@@ -676,7 +682,7 @@ footer .widget_title_text {
 
 @media (max-width:400px) {
     .banner_headline {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .banner_headline h1 {
@@ -731,6 +737,10 @@ footer .widget_title_text {
     nav ul {
         flex-direction: column;
         display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #FFFFFF;
 
     }
 
