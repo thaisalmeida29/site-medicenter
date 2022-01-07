@@ -675,9 +675,7 @@ footer .widget_title_text {
 }
 
 @media (max-width:400px) {
-    .banner_headline {
-        flex-direction: column;
-    }
+    
 
     .banner_headline h1 {
         padding: 15px;
