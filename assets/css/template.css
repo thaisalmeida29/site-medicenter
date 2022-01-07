@@ -617,7 +617,9 @@ footer .widget_title_text {
         flex-direction: row;
     }
 
-    .widget_title_text1 {}
+    .widget_title_text1 {
+        margin-top: 125px;
+    }
 
     .banner_options {
         height: auto;
