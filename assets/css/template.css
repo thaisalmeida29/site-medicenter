@@ -673,10 +673,12 @@ footer .widget_title_text {
 
 
 }
+
 @media (max-width:400px) {
     .banner_headline {
         flex-direction: column;
     }
+
     .banner_headline h1 {
         padding: 15px;
     }
@@ -688,13 +690,6 @@ footer .widget_title_text {
     .banner_headline h2 {
         padding: 20px;
         font-size: 13px;
-        
-        
-        
-    }
-
-    .banner_headline {
-        flex-direction: row;
     }
 
     .widget_title_text1 {
