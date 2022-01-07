@@ -674,24 +674,32 @@ footer .widget_title_text {
 
 }
 @media (max-width:400px) {
+    .banner_headline {
+        flex-direction: column;
+    }
     .banner_headline h1 {
-        padding: 20px;
+        padding: 15px;
     }
 
     .banner_headline h1 {
-        font-size: 55px;
+        font-size: 40px;
     }
 
     .banner_headline h2 {
         padding: 20px;
-        font-size: 17px;
+        font-size: 13px;
+        
+        
+        
     }
 
     .banner_headline {
         flex-direction: row;
     }
 
-    .widget_title_text1 {}
+    .widget_title_text1 {
+        margin-top: 100px;
+    }
 
     .banner_options {
         height: auto;
